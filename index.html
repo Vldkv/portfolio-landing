@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo">Vlad Kozii</a>
+                <div class="dark-mode-btn">
+                    <img src="/images/icons/sun.svg" alt="Dark mode" class="dark-mode-btn__icon">
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="/index.html" class="nav-list__link">Home</a></li>
+                    <li class="nav-list__item"><a href="#contacts" class="nav-list__link">Contacts</a></li>
+                    <li class="nav-list__item"><a href="https://github.com/Vldkv" class="nav-list__link" target=”_blank”>GitHub</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+  
+
+    <header class="header">
+            <div class="header__wrapper">
+
+                <h1 class="header__title">
+                    <strong>
+                    Hello, my name is <em>Vlad</em>
+                    </strong>
+                    <br>
+                    a software developer
+                </h1>
+                <a href="#" class="btn">Download CV</a>
+
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="https://github.com/Vldkv" target=”_blank”><img src="/images/icons/brand-github.svg" alt="GitHub link"></a> 
+                    </li>
+                    <li class="social__item">
+                        <a href="https://www.linkedin.com/in/vlad-kozii-69b230229/" target=”_blank”><img src="/images/icons/brand-linkedin.svg" alt="Linkedin link"></a> 
+                    </li>
+                </ul>
+                
+            </div>
+    </header>
+
+    <main class="section">
+
+        <div class="container">
+            <h2 class="title-1">About me</h2>
+            <p>My name is Vlad Kozii, I'm a software developer based in Prague, Czech Republic.</p><br><br>
+            <p>I am interested in everything related to technology and design. From software development to UI/UX. I am also interested in history, economics and learning new languages.</p>
+            
+        </div>
+
+        <div class="container">
+
+            <h2 class="title-1">Skills</h2>
+
+                <ul class="content-list">
+                    <li class="content-list__item">
+                        <h3 class="title-2">Frontend</h3>
+                        <p>HTML/CSS, JavaScript, Sass, Bootstrap, React, TypeScript, C#</p>
+                    </li>
+                    <li class="content-list__item">
+                        <h3 class="title-2">Backend</h3>
+                        <p>Node.js, SQL, Gulp</p>
+                    </li>
+                    <li class="content-list__item">
+                        <h3 class="title-2">Languages</h3>
+                        <p>English, Czech, Ukrainian, Russian</p>
+                    </li>
+                </ul>
+               
+        </div>
+
+        <div class="container contacts" id="contacts">
+            <h2 class="title-1">Contacts</h2>
+                <form action="https://formsubmit.co/your@koziivlad94@gmail.com" method="POST">
+                    <h3>Contact me</h3>
+                    <input type="text" name="name" class="name" id="name" placeholder="Your name" required>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <textarea name="message" id="message" rows="4" placeholder="Write your message here" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+            <ul class="social">
+                <li class="social__item">
+                    <a href="https://github.com/Vldkv" target=”_blank”><img src="/images/icons/brand-github.svg" alt="GitHub link"”></a> 
+                </li>
+                <li class="social__item">
+                    <a href="https://www.linkedin.com/in/vlad-kozii-69b230229/" target=”_blank”><img src="/images/icons/brand-linkedin.svg" alt="Linkedin link"></a> 
+                </li>
+            </ul>
+
+            <a class="copyright">2023, Vlad Kozii</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/scroll-out.js"></script>
+    <script type="text/javascript">
+        ScrollOut({
+            targets: 'h2, h3, p'
+        })
+    </script>
+    
+</body>
+</html>
