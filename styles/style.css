@@ -407,7 +407,7 @@ form h3 {
 form input, form textarea {
     border: 0;
     margin: 10px 0;
-    padding: 15px;
+    padding: 0px 5px 0px 5px;
     outline: none;
     background: var(--white);
     font-size: 12px;
@@ -415,7 +415,13 @@ form input, form textarea {
 
 }
 form textarea{
-    height: 150px;
+    border: 0;
+    margin: 10px 0;
+    padding: 0px 5px 0px 5px;
+    outline: none;
+    background: var(--white);
+    font-size: 12px;
+    height: 200px;
     resize: none;
 
 }
