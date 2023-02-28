@@ -76,9 +76,8 @@ html, body {
 .title-2 {
     margin-bottom: 20px;
     margin-top: 20px;
-
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 40em;
+    font-weight: 500;
     line-height: 1.3;
 }
 
@@ -98,6 +97,7 @@ html, body {
     margin: 0;  
     padding: 0;
     display: inline-block;
+    font-size: 35px;
     transition: 0.5s;
     transform-origin: left;
     transform: scaleX(0);
@@ -129,7 +129,7 @@ html, body {
     margin: 5px 0 0;  
     padding: 0;
     display: inline-block;
-
+    font-size: 35px;
     transition: 0.5s;
     transform-origin: right;
     transform: scaleX(0);
@@ -158,7 +158,7 @@ html, body {
 }
 
 p {
-    font-size: 24px;
+    font-size: 18px;
     transition: 1s;
     opacity: 0;
     transform: translateX(100px);
@@ -213,7 +213,7 @@ p[data-scroll="in"] {
     row-gap: 10px;
     align-items: center;
     column-gap: 40px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
 }
@@ -337,7 +337,7 @@ p[data-scroll="in"] {
     background-color: var(--accent);
     columns: var(--white);
     letter-spacing: 0.15px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 
     /* animation btn */
