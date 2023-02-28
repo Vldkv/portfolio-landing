@@ -284,7 +284,7 @@ p[data-scroll="in"] {
     background-color: var(--dark-bg);
     color: var(--header-text);
     
-    background-image: url("/images/icons/background.jpg");
+    background-image: url("../images/icons/background.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
