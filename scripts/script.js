@@ -27,9 +27,9 @@ if (localStorage.getItem('darkMode') === 'dark') {
 
 iconDarkMode.onclick = function () {
     if(document.body.classList.contains("dark")){
-        iconDarkMode.src = "/images/icons/moon.svg";
+        iconDarkMode.src = "./images/icons/moon.svg";
     }else {
-        iconDarkMode.src = "/images/icons/sun.svg";
+        iconDarkMode.src = "./images/icons/sun.svg";
     }
 }
 
